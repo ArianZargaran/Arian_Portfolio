@@ -1,0 +1,141 @@
+@media only screen and (min-width: 56.939em) {
+  /* line 4, scss/big-screens.scss */
+  * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+
+  /* line 8, scss/big-screens.scss */
+  a {
+    text-decoration: none;
+    color: black; }
+
+  /* line 13, scss/big-screens.scss */
+  body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+
+    section {
+      height: 300px;
+      background-color: pink;
+    }
+
+  /* line 20, scss/big-screens.scss */
+  .flex-container {
+    width: 83.33333334%;
+    height: 51px;
+    margin: 0 auto;
+    background-color: #C74375; }
+
+  /* line 27, scss/big-screens.scss */
+  header {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+
+  /* line 33, scss/big-screens.scss */
+  header h1 {
+    font-family: 'Arvo', serif;
+    width: 25%;
+    padding: 16px 10px;
+    background-color: lime;
+    -ms-flex-negative: .5;
+        flex-shrink: .5; }
+
+  /* line 41, scss/big-screens.scss */
+  header nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    background-color: blue;
+    -ms-flex-negative: 1;
+        flex-shrink: 1; }
+    /* line 48, scss/big-screens.scss */
+    header nav li {
+      list-style: none; }
+
+  /* line 53, scss/big-screens.scss */
+  header nav li a {
+    padding: 5px 10px;
+    border-bottom: 1px solid transparent; }
+    /* line 56, scss/big-screens.scss */
+    header nav li a:hover {
+      border-bottom: 1px solid black; }
+
+  /*SECTION 1 - Typewritter effect*/
+  /* line 62, scss/big-screens.scss */
+  .welcome {
+    width: 100%;
+    height: 500px;
+    background-color: green;
+    padding-top: 10em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+
+  /* line 71, scss/big-screens.scss */
+  .typewriter h2 {
+    font-size: 36px;
+    color: #fff;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    -webkit-animation: typing 4s steps(27, end), blink-caret 0.75s step-end infinite;
+            animation: typing 4s steps(27, end), blink-caret 0.75s step-end infinite; }
+
+  /* The typing effect */
+  @-webkit-keyframes typing {
+    from {
+      width: 0; }
+    to {
+      width: 100%; } }
+  @keyframes typing {
+    from {
+      width: 0; }
+    to {
+      width: 100%; } }
+  /* The typewriter cursor effect */
+  @-webkit-keyframes blink-caret {
+    from, to {
+      border-color: transparent; }
+    50% {
+      border-color: orange; } }
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent; }
+    50% {
+      border-color: orange; } }
+  /*GRID VIEW STARTS*/
+  /* line 96, scss/big-screens.scss */
+
+
+/*# sourceMappingURL=big-screens.css.map */
